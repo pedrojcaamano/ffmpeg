@@ -1,1 +1,2 @@
 Cortar (extraer) 'X' segundos desde el principio de un audio:
+`ffmpeg -i Audio.mp3 -t [duración_del_corte] AudioCortado.mp3`
